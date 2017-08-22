@@ -12,6 +12,7 @@ class C implements A{
 	protected void v(){
 		System.out.println("protected C.v()");
 	}
+	@SuppressWarnings("unused")
 	private void w(){
 		System.out.println("private C.w()");
 	}
